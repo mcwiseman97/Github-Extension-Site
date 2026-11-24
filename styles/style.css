@@ -38,6 +38,7 @@ header {
 
 #logo {
     padding: 5px;
+    border-radius: 90px;
 }
 
 header h1 {
