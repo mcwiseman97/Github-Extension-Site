@@ -4,9 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GH Extensions</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="icon" href="assets/icon.png" type="image/png">
+    <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    
+    <header>
+        <img src="assets/icon.png" id="logo" alt="GH Extensions" width="125" height="125">
+        <h1>Github Extension Finder</h1>
+    </header>
+    <form class="search" role="search">
+        <label class="visually-hidden" for="search-input">Search extensions</label>
+        <input id="search-input" type="search" name="q" placeholder="Search extensions…" autocomplete="off">
+        <button type="submit">Search</button>
+    </form>
 </body>
 </html>
